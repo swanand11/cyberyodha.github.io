@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my page</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><a href="index.html">Cyber Yodha logo</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tips.html">Cyber Awareness</a></li>
+                <li><a href="FAQ.html">FAQ'S</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <figure class="a2">
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_z35UZP.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+    </figure>
+    <div class="start_btn"><button>Start Quiz</button></div>
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+   
+    <div class="quiz_box">
+        <header>
+            <div class="title">Cyber Saftey Quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            
+        </header>
+        <section class="quiz-sec">
+            <div class="que_text">
+               
+            </div>
+            <div class="option_list">
+              
+            </div>
+        </section>
+       
+        <footer class="qf">
+            <div class="total_que">
+                
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+   
+    <div class="result_box">
+        <div class="icon">
+            
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+           
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
+</html>
